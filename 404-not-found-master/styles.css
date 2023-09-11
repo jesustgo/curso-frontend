@@ -1,0 +1,54 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  color: #333;
+  font-family: "Inconsolata";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+
+.main_content {
+  display: flex;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title_information {
+  color: var(--Gray-1, #333);
+  font-family: "Space Mono", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+  width: 586px;
+}
+
+.description {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+  width: 381px;
+}
+
+.link_home {
+  text-decoration: none;
+  background: var(--Gray-1, #333);
+  color: #fff;
+  width: 216px;
+  height: 68px;
+  flex-shrink: 0;
+  font-family: "Space Mono";
+  padding: 5px 10px;
+}
