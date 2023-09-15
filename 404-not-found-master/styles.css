@@ -15,9 +15,10 @@ body {
 
 .main_content {
   display: flex;
-  row-gap: 10px;
+  row-gap: 50px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
+  min-height: 50vh;
 }
 
 .title_information {
@@ -29,6 +30,7 @@ body {
   line-height: normal;
   letter-spacing: -2.24px;
   width: 586px;
+  margin-bottom: 6px;
 }
 
 .description {
@@ -51,4 +53,22 @@ body {
   flex-shrink: 0;
   font-family: "Space Mono";
   padding: 5px 10px;
+}
+
+.Scarecrow {
+  margin-right: 10px;
+  width: 250px;
+  height: 187px;
+}
+@media screen and (max-width: 769px) {
+  .main_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Scarecrow img {
+    width: 600px;
+    margin-right: 0px;
+  }
 }
