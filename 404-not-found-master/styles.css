@@ -56,10 +56,14 @@ body {
 }
 
 .Scarecrow {
+  width: 100%;
   margin-right: 10px;
-  width: 250px;
-  height: 187px;
 }
+
+.Scarecrow img {
+  width: 100%;
+}
+
 @media screen and (max-width: 769px) {
   .main_content {
     flex-direction: column;
@@ -68,7 +72,6 @@ body {
   }
 
   .Scarecrow img {
-    width: 600px;
     margin-right: 0px;
   }
 }
